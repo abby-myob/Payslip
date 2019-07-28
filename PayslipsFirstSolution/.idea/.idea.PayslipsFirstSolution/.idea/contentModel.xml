@@ -14,6 +14,8 @@
           </e>
         </e>
         <e p="PayslipsFirstSolution.csproj" t="IncludeRecursive" />
+        <e p="Person.cs" t="Include" />
+        <e p="Printer.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="PayslipsFirstSolution.sln" t="IncludeFlat" />
