@@ -6,6 +6,9 @@ namespace PayslipsFirstSolution
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(Constants.Welcome);
+            
             // Print questions 
             // Save the details in a person class.
             
@@ -14,9 +17,6 @@ namespace PayslipsFirstSolution
             
             
             // Print all the details with a printer
-            
-            
-            
             
         }
     }
