@@ -6,7 +6,18 @@ namespace PayslipsFirstSolution
     {
         static void Main(string[] args)
         {
-            //hi
+            // Print questions 
+            // Save the details in a person class.
+            
+            // Do the logic with the details
+            // NameCreator.concatenate(person);
+            
+            
+            // Print all the details with a printer
+            
+            
+            
+            
         }
     }
 }
