@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f1703b-7dac-4074-9fc0-62726f9c2863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PayslipsFirstSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PayslipsFirstSolution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +15,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
-                <marker date="1564350794136" expanded="true" signature="46:153" ph="{...}" />
-                <marker date="1564350794136" expanded="true" signature="66:151" ph="{...}" />
-                <marker date="1564350794136" expanded="true" signature="112:145" ph="{...}" />
+                <marker date="1564351354087" expanded="true" signature="46:157" ph="{...}" />
+                <marker date="1564351354087" expanded="true" signature="66:155" ph="{...}" />
+                <marker date="1564351354087" expanded="true" signature="112:149" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,12 +118,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564350634210</updated>
-      <workItem from="1564350635297" duration="215000" />
+      <workItem from="1564350635297" duration="574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215000" />
+    <option name="totallyTimeSpent" value="574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -137,9 +136,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-506" width="1080" height="1346" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2495183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -152,7 +152,7 @@
       <window_info anchor="bottom" id="Build" weight="0.3293461" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -183,12 +183,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
-            <marker date="1564350794136" expanded="true" signature="46:153" ph="{...}" />
-            <marker date="1564350794136" expanded="true" signature="66:151" ph="{...}" />
-            <marker date="1564350794136" expanded="true" signature="112:145" ph="{...}" />
+            <marker date="1564351354087" expanded="true" signature="46:157" ph="{...}" />
+            <marker date="1564351354087" expanded="true" signature="66:155" ph="{...}" />
+            <marker date="1564351354087" expanded="true" signature="112:149" ph="{...}" />
           </folding>
         </state>
       </provider>
