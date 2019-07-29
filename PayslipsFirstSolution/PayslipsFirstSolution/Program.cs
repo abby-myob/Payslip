@@ -16,23 +16,22 @@ namespace PayslipsFirstSolution
                 LastName = Printer.StringInputValidation(Constants.LastNameInput),
                 AnnualSalary = Printer.NumberInputValidation(Constants.AnnualSalaryInput),
                 SuperRate = Printer.NumberInputValidation(Constants.SuperRateInput),
-//                PaymentStartDate = Printer.DateInputValidation(Constants.PaymentStartDateInput),
-//                PaymentEndDate = Printer.DateInputValidation(Constants.PaymentEndDateInput),
+                PaymentStartDate = Printer.DateInputValidation(Constants.PaymentStartDateInput),
+                PaymentEndDate = Printer.DateInputValidation(Constants.PaymentEndDateInput),
             };
-            person.NameGenerator();
+            
 
             PayslipLogic payslip = new PayslipLogic(person);
             
+            payslip.CalculateFullName();
+            payslip.CalculatePayPeriod();
             payslip.CalculateGrossIncome();
             payslip.CalculateIncomeTax();
-            
-
-            // Do the logic with the details
-            // NameCreator.concatenate(person);
+            payslip.CalculateNetIncome();
+            payslip.CalculateSuper();
 
 
-            // Print all the details with a printer
-
+            Printer.PrintPayslip(person);
         }
     }
 }

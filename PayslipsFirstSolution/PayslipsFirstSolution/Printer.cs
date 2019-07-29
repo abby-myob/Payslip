@@ -77,5 +77,20 @@ namespace PayslipsFirstSolution
             }
         }
 
+        public static void PrintPayslip(Person person)
+        {
+            Console.WriteLine(Constants.NewLine);
+            Console.WriteLine(Constants.PayslipGenerated);
+
+            Console.WriteLine($"{Constants.Name} {person.FullName}");
+            Console.WriteLine($"{Constants.PayPeriod} {person.PayPeriod}");
+            Console.WriteLine($"{Constants.GrossIncome} {person.GrossIncome}");
+            Console.WriteLine($"{Constants.IncomeTax} {person.IncomeTax}");
+            Console.WriteLine($"{Constants.NetIncome} {person.NetIncome}");
+            Console.WriteLine($"{Constants.Super} {person.Super}");
+
+            Console.WriteLine(Constants.NewLine);
+            Console.WriteLine(Constants.ThankYou);
+        }
     }
 }

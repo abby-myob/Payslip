@@ -10,18 +10,11 @@ namespace PayslipsFirstSolution
         public string PaymentStartDate;
         public string PaymentEndDate;
 
-        private string FullName;
+        public string FullName;
         public string PayPeriod;
         public int GrossIncome;
         public int IncomeTax;
+        public int NetIncome;
         public int Super;
-
-        public void NameGenerator()
-        {
-            if (FirstName != null && LastName != null)
-            {
-                FullName = FirstName + " " + LastName;
-            }
-        }
     }
 }
