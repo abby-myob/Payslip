@@ -5,7 +5,7 @@ namespace PayslipsFirstSolution
 {
     class PayslipLogic
     {
-        private Person _person;
+        private readonly Person _person;
         
         public PayslipLogic(Person person)
         {
@@ -28,38 +28,34 @@ namespace PayslipsFirstSolution
 
         public void CalculateGrossIncome()
         {
-            _person.GrossIncome = Convert.ToInt32(Math.Floor((decimal) (_person.AnnualSalary/12)));
+            _person.GrossIncome = (int) Math.Round((decimal) _person.AnnualSalary/12);
         }
         
         public void CalculateIncomeTax()
         {
             int income = _person.AnnualSalary;
-            int result = 0;
+            _person.IncomeTax = 0;
             
             if (income <= 18200)
             {
-                result = 0;
+                _person.IncomeTax = 0;
             } 
             else if (income >= 18201 && income <= 37000)
             {
-                result = (int) (((income - 18200) * 0.19)/12);
+                _person.IncomeTax = (int) Math.Round((decimal)((income - 18200) * 0.19)/12);
             } 
             else if (income >= 37001 && income < 87000)
             {
-                result = (int) ((3572 + (income - 37000) * 0.325)/12);
+                _person.IncomeTax = (int) Math.Round((decimal)(3572 + (income - 37000) * 0.325)/12);
             }
             else if (income >= 87001 && income < 180000)
             {
-                result = (int) ((19822 + (income - 87000) * 0.37)/12);
+                _person.IncomeTax = (int) Math.Round((decimal)(19822 + (income - 87000) * 0.37)/12);
             }
             else if (income >= 180001)
             {
-                result = (int) ((54232 + (income - 18000) * 0.45)/12);
+                _person.IncomeTax = (int) Math.Round((decimal)(54232 + (income - 18000) * 0.45)/12);
             }
-            
-            //round the boy
-
-            _person.IncomeTax = result;
         }
 
         public void CalculateNetIncome()
@@ -69,10 +65,9 @@ namespace PayslipsFirstSolution
         
         public void CalculateSuper()
         {
-            _person.Super = Convert.ToInt32(Math.Floor((decimal) (_person.GrossIncome * _person.SuperRate / 100)));
-            
+            _person.Super = (int) Math.Round((decimal) _person.GrossIncome * _person.SuperRate / 100);
         }
 
-        
+
     }
 }

@@ -57,8 +57,10 @@ namespace PayslipsFirstSolution
             }
         }
 
-        public static string DateInputValidation(String message) // TODO implement validation.
+        public static string StartDateInputValidation(string message) // TODO implement validation.
         {
+            
+            
             Console.Write(message);
             return Console.ReadLine();
         }

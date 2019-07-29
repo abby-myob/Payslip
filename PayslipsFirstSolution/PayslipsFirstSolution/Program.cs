@@ -16,8 +16,8 @@ namespace PayslipsFirstSolution
                 LastName = Printer.StringInputValidation(Constants.LastNameInput),
                 AnnualSalary = Printer.NumberInputValidation(Constants.AnnualSalaryInput),
                 SuperRate = Printer.NumberInputValidation(Constants.SuperRateInput),
-                PaymentStartDate = Printer.DateInputValidation(Constants.PaymentStartDateInput),
-                PaymentEndDate = Printer.DateInputValidation(Constants.PaymentEndDateInput),
+                PaymentStartDate = Printer.StartDateInputValidation(Constants.PaymentStartDateInput),
+                //PaymentEndDate = //Start date + A Month
             };
             
 
