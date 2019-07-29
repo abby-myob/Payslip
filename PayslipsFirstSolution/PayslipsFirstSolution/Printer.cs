@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace PayslipsFirstSolution
 {
-    public class Printer /*: IPrinter*/
+    public class Printer  
     {
         private DateTime _programStartDate = DateTime.Today;
 
@@ -68,11 +68,11 @@ namespace PayslipsFirstSolution
             {
                 Console.Write(message);
 
-                if (!DateTime.TryParseExact(Console.ReadLine(), "MM/DD/YYYY", new CultureInfo("en-NZ"), DateTimeStyles.None, out DateTime date))
+                if (!DateTime.TryParseExact(Console.ReadLine(), new [] {"d/M/yy", "dd/MM/yy"}, CultureInfo.CurrentCulture, DateTimeStyles.None, out DateTime date))
                 {
                     Console.WriteLine(Constants.ProvideValidStartDate);
                     continue;
-                }
+                } 
                 
                 switch (message)
                 {
@@ -91,7 +91,9 @@ namespace PayslipsFirstSolution
                     
                     case Constants.PaymentEndDateInput:
                         
-                        if (date.Day == DateTime.DaysInMonth(_programStartDate.Month, _programStartDate.Year))
+                        if (date.Day == DateTime.DaysInMonth(_programStartDate.Year, _programStartDate.Month) 
+                            && date.Year == _programStartDate.Year 
+                            && date.Month == _programStartDate.Month)
                         {
                             return date;
                         }
