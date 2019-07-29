@@ -59,10 +59,21 @@ namespace PayslipsFirstSolution
 
         public static string StartDateInputValidation(string message) // TODO implement validation.
         {
-            
-            
-            Console.Write(message);
-            return Console.ReadLine();
+//            while (true)
+//            {
+//                Console.Write(message);
+//                DateTime userDateTime;
+//                if (DateTime.TryParse(Console.ReadLine(), out userDateTime))
+//                {
+//                    Console.WriteLine("The day of the week is: " + userDateTime.DayOfWeek);
+//                    return 
+//                }
+//                else
+//                {
+//                    Console.WriteLine("You have entered an incorrect value.");
+//                }
+//
+//            }
         }
 
         public static void PrintPayslip(Person person)

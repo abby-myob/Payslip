@@ -14,7 +14,7 @@ namespace PayslipsFirstSolution
         public const string LastNameInput = "Last Name: ";
         public const string AnnualSalaryInput = "Annual Salary (ex. 40000): ";
         public const string SuperRateInput = "Super Rate: ";
-        public const string PaymentStartDateInput = "Start Date of the Pay Month: ";
+        public const string PaymentStartDateInput = "Start Date of the Pay Month (DD Month): ";
         
         // Payslip information Strings
         public const string PayslipGenerated = "Your Payslip has been generated\n";

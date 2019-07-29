@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f1703b-7dac-4074-9fc0-62726f9c2863" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
-                <marker date="1564365613670" expanded="true" signature="6:69" ph="..." />
-                <marker date="1564365613670" expanded="true" signature="102:1227" ph="{...}" />
-                <marker date="1564365613670" expanded="true" signature="122:1225" ph="{...}" />
-                <marker date="1564365613670" expanded="true" signature="168:1219" ph="{...}" />
-                <marker date="1564365613670" expanded="true" signature="278:827" ph="{...}" />
+                <marker date="1564369214707" expanded="true" signature="6:69" ph="..." />
+                <marker date="1564369214707" expanded="true" signature="102:1197" ph="{...}" />
+                <marker date="1564369214707" expanded="true" signature="122:1195" ph="{...}" />
+                <marker date="1564369214707" expanded="true" signature="168:1189" ph="{...}" />
+                <marker date="1564369214707" expanded="true" signature="278:797" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -31,25 +33,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="450">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
-                <marker date="1564369052068" expanded="true" signature="6:49" ph="..." />
-                <marker date="1564369052068" expanded="true" signature="82:2112" ph="{...}" />
-                <marker date="1564369052068" expanded="true" signature="107:2110" ph="{...}" />
-                <marker date="1564369052068" expanded="false" signature="206:256" ph="{...}" />
-                <marker date="1564369052068" expanded="false" signature="314:511" ph="{...}" />
-                <marker date="1564369052068" expanded="true" signature="395:501" ph="{...}" />
-                <marker date="1564369052068" expanded="false" signature="553:663" ph="{...}" />
-                <marker date="1564369052068" expanded="false" signature="707:814" ph="{...}" />
-                <marker date="1564369052068" expanded="false" signature="864:1798" ph="{...}" />
-                <marker date="1564369052068" expanded="true" signature="1002:1069" ph="{...}" />
-                <marker date="1564369052068" expanded="true" signature="1127:1248" ph="{...}" />
-                <marker date="1564369052068" expanded="true" signature="1305:1434" ph="{...}" />
-                <marker date="1564369052068" expanded="true" signature="1491:1620" ph="{...}" />
-                <marker date="1564369052068" expanded="true" signature="1659:1788" ph="{...}" />
-                <marker date="1564369052068" expanded="false" signature="1840:1933" ph="{...}" />
-                <marker date="1564369052068" expanded="false" signature="1979:2102" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="6:49" ph="..." />
+                <marker date="1564369284547" expanded="true" signature="82:2119" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="107:2117" ph="{...}" />
+                <marker date="1564369284547" expanded="false" signature="206:256" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="314:511" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="395:501" ph="{...}" />
+                <marker date="1564369284547" expanded="false" signature="553:663" ph="{...}" />
+                <marker date="1564369284547" expanded="false" signature="707:814" ph="{...}" />
+                <marker date="1564369284547" expanded="false" signature="864:1798" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="1002:1069" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="1127:1248" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="1305:1434" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="1491:1620" ph="{...}" />
+                <marker date="1564369284547" expanded="true" signature="1659:1788" ph="{...}" />
+                <marker date="1564369284547" expanded="false" signature="1840:1933" ph="{...}" />
+                <marker date="1564369284547" expanded="false" signature="1979:2102" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -58,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Person.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <marker date="1564365691425" expanded="true" signature="32:462" ph="{...}" />
                 <marker date="1564365691425" expanded="true" signature="58:460" ph="{...}" />
@@ -68,26 +70,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+            <state relative-caret-position="608">
+              <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
               <folding>
-                <marker date="1564367389962" expanded="true" signature="6:85" ph="..." />
-                <marker date="1564367389962" expanded="true" signature="118:2622" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="167:2620" ph="{...}" />
-                <marker date="1564367389962" expanded="false" signature="241:715" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="300:681" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="468:531" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="552:650" ph="{...}" />
-                <marker date="1564367389962" expanded="false" signature="780:1689" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="815:1679" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="988:1545" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="1043:1527" ph="{...}" />
-                <marker date="1564367389962" expanded="true" signature="1566:1664" ph="{...}" />
-                <marker date="1564367389962" expanded="false" signature="1785:1880" ph="{...}" />
-                <marker date="1564367389962" expanded="false" signature="1936:2614" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="6:85" ph="..." />
+                <marker date="1564369861434" expanded="true" signature="118:3054" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="167:3052" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="241:715" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="300:681" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="468:531" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="552:650" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="780:1689" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="815:1679" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="988:1545" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="1043:1527" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="1566:1664" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="1790:2312" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="1825:2302" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="1995:2151" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="2172:2287" ph="{...}" />
+                <marker date="1564369861434" expanded="true" signature="2368:3046" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,12 +101,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
               <folding>
-                <marker date="1564365786525" expanded="true" signature="6:56" ph="..." />
-                <marker date="1564365786525" expanded="true" signature="89:1736" ph="{...}" />
-                <marker date="1564365786525" expanded="true" signature="125:1734" ph="{...}" />
+                <marker date="1564369561583" expanded="true" signature="6:56" ph="..." />
+                <marker date="1564369561583" expanded="true" signature="89:1684" ph="{...}" />
+                <marker date="1564369561583" expanded="true" signature="125:1682" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,11 +133,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PayslipsFirstSolution/PayslipGenerator.cs" />
-        <option value="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" />
         <option value="$PROJECT_DIR$/PayslipsFirstSolution/Person.cs" />
+        <option value="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" />
+        <option value="$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs" />
         <option value="$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs" />
         <option value="$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs" />
-        <option value="$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs" />
       </list>
     </option>
   </component>
@@ -220,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564350634210</updated>
-      <workItem from="1564350635297" duration="15613000" />
+      <workItem from="1564350635297" duration="16303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15613000" />
+    <option name="totallyTimeSpent" value="16303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,59 +293,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="240">
+          <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
           <folding>
-            <marker date="1564365786525" expanded="true" signature="6:56" ph="..." />
-            <marker date="1564365786525" expanded="true" signature="89:1736" ph="{...}" />
-            <marker date="1564365786525" expanded="true" signature="125:1734" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <marker date="1564365613670" expanded="true" signature="6:69" ph="..." />
-            <marker date="1564365613670" expanded="true" signature="102:1227" ph="{...}" />
-            <marker date="1564365613670" expanded="true" signature="122:1225" ph="{...}" />
-            <marker date="1564365613670" expanded="true" signature="168:1219" ph="{...}" />
-            <marker date="1564365613670" expanded="true" signature="278:827" ph="{...}" />
+            <marker date="1564369561583" expanded="true" signature="6:56" ph="..." />
+            <marker date="1564369561583" expanded="true" signature="89:1684" ph="{...}" />
+            <marker date="1564369561583" expanded="true" signature="125:1682" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="450">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
-            <marker date="1564369052068" expanded="true" signature="6:49" ph="..." />
-            <marker date="1564369052068" expanded="true" signature="82:2112" ph="{...}" />
-            <marker date="1564369052068" expanded="true" signature="107:2110" ph="{...}" />
-            <marker date="1564369052068" expanded="false" signature="206:256" ph="{...}" />
-            <marker date="1564369052068" expanded="false" signature="314:511" ph="{...}" />
-            <marker date="1564369052068" expanded="true" signature="395:501" ph="{...}" />
-            <marker date="1564369052068" expanded="false" signature="553:663" ph="{...}" />
-            <marker date="1564369052068" expanded="false" signature="707:814" ph="{...}" />
-            <marker date="1564369052068" expanded="false" signature="864:1798" ph="{...}" />
-            <marker date="1564369052068" expanded="true" signature="1002:1069" ph="{...}" />
-            <marker date="1564369052068" expanded="true" signature="1127:1248" ph="{...}" />
-            <marker date="1564369052068" expanded="true" signature="1305:1434" ph="{...}" />
-            <marker date="1564369052068" expanded="true" signature="1491:1620" ph="{...}" />
-            <marker date="1564369052068" expanded="true" signature="1659:1788" ph="{...}" />
-            <marker date="1564369052068" expanded="false" signature="1840:1933" ph="{...}" />
-            <marker date="1564369052068" expanded="false" signature="1979:2102" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="6:49" ph="..." />
+            <marker date="1564369284547" expanded="true" signature="82:2119" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="107:2117" ph="{...}" />
+            <marker date="1564369284547" expanded="false" signature="206:256" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="314:511" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="395:501" ph="{...}" />
+            <marker date="1564369284547" expanded="false" signature="553:663" ph="{...}" />
+            <marker date="1564369284547" expanded="false" signature="707:814" ph="{...}" />
+            <marker date="1564369284547" expanded="false" signature="864:1798" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="1002:1069" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="1127:1248" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="1305:1434" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="1491:1620" ph="{...}" />
+            <marker date="1564369284547" expanded="true" signature="1659:1788" ph="{...}" />
+            <marker date="1564369284547" expanded="false" signature="1840:1933" ph="{...}" />
+            <marker date="1564369284547" expanded="false" signature="1979:2102" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Person.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <marker date="1564365691425" expanded="true" signature="32:462" ph="{...}" />
             <marker date="1564365691425" expanded="true" signature="58:460" ph="{...}" />
@@ -350,23 +341,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+        <state relative-caret-position="608">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
           <folding>
-            <marker date="1564367389962" expanded="true" signature="6:85" ph="..." />
-            <marker date="1564367389962" expanded="true" signature="118:2622" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="167:2620" ph="{...}" />
-            <marker date="1564367389962" expanded="false" signature="241:715" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="300:681" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="468:531" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="552:650" ph="{...}" />
-            <marker date="1564367389962" expanded="false" signature="780:1689" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="815:1679" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="988:1545" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="1043:1527" ph="{...}" />
-            <marker date="1564367389962" expanded="true" signature="1566:1664" ph="{...}" />
-            <marker date="1564367389962" expanded="false" signature="1785:1880" ph="{...}" />
-            <marker date="1564367389962" expanded="false" signature="1936:2614" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="6:85" ph="..." />
+            <marker date="1564369861434" expanded="true" signature="118:3054" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="167:3052" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="241:715" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="300:681" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="468:531" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="552:650" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="780:1689" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="815:1679" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="988:1545" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="1043:1527" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="1566:1664" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="1790:2312" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="1825:2302" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="1995:2151" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="2172:2287" ph="{...}" />
+            <marker date="1564369861434" expanded="true" signature="2368:3046" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <marker date="1564369214707" expanded="true" signature="6:69" ph="..." />
+            <marker date="1564369214707" expanded="true" signature="102:1197" ph="{...}" />
+            <marker date="1564369214707" expanded="true" signature="122:1195" ph="{...}" />
+            <marker date="1564369214707" expanded="true" signature="168:1189" ph="{...}" />
+            <marker date="1564369214707" expanded="true" signature="278:797" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -67,7 +67,6 @@ namespace PayslipsFirstSolution
         {
             _person.Super = (int) Math.Round((decimal) _person.GrossIncome * _person.SuperRate / 100);
         }
-
-
+        
     }
 }
