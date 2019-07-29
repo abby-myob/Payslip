@@ -1,6 +1,3 @@
-using System;
-using System.Runtime.ConstrainedExecution;
-
 namespace PayslipsFirstSolution
 {
     public static class Constants

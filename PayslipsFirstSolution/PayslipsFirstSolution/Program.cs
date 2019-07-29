@@ -1,16 +1,14 @@
 ﻿using System;
-using System.IO.Pipes;
-using System.Security.Principal;
 
 namespace PayslipsFirstSolution
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine(Constants.Welcome);
             var p = new Printer();
-
+            
             var person = new Person
             {
                 FirstName = p.StringInputValidation(Constants.FirstNameInput),
@@ -21,7 +19,6 @@ namespace PayslipsFirstSolution
                 PaymentEndDate = p.DateInputValidation(Constants.PaymentEndDateInput),
            };
             
-
             PayslipLogic payslip = new PayslipLogic(person);
             
             payslip.CalculateFullName();
