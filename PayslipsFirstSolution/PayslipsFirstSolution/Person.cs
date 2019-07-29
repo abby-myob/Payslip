@@ -1,9 +1,10 @@
+
 namespace PayslipsFirstSolution
 {
     public class Person
     {
-        // structure all the parameters to the person
-
-
+        public string FirstName;
+        public string LastName;
+        public int AnnualSalary;
     }
 }

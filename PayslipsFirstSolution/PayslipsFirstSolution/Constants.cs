@@ -29,6 +29,7 @@ namespace PayslipsFirstSolution
         public const string NewLine = "\n";
         
         // Error Messages
-        
+        public const string OnlyLetters = "Please only use Letters"; //what if it's a name with special characters
+        public const string OnlyNumbers = "Please type out a number";
     }
 }

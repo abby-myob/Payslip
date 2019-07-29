@@ -1,70 +1,57 @@
 using System;
-using System.ComponentModel.DataAnnotations;
-using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 
 namespace PayslipsFirstSolution
 {
-    public class Printer /*: IPrinter*/
+    public static class Printer /*: IPrinter*/
     {
-        public Person Person { get; }
 
-        public Printer(Person person)
+        public static string StringInputValidation(string message)
         {
-            Person = person;
-        }
-        
-        public void FirstNameValidator()
-        {
-            var valid = false;
-            while (!valid)
+            var res = "";
+            while (true)
             {
-                Console.Write(Constants.FirstNameInput);
-                var res = Console.ReadLine();
+                Console.Write(message);
+                res = Console.ReadLine();
 
-                if (StringValidation(res))
+                if (res != null && Regex.IsMatch(res, @"^[a-zA-Z]+$"))
                 {
-                    valid = true;
-                    //put response into the person object.
+                    break;
                 }
+                else
+                {
+                    Console.WriteLine(Constants.OnlyLetters);
+                }
+                
             }
-        }
-        
-        public void LastNameValidator()
-        {
-            
+            return res;
         }
 
-        public void AnnualSalaryValidator()
-        {
-            
-        }
 
-        public void SuperValidator()
+        public static int AnnualSalaryValidation(string message)
         {
-            
-        }
+            var res = "";
+            var salary = 0;
+            while (true)
+            {
+                Console.Write(message);
+                res = Console.ReadLine();
+                //turn res into integer 
 
-        public void PaymentStartDateValidator()
-        {
-            
-        }
-
-        public void PaymentEndDateValidator()
-        {
-            
-        }
-
-        
-        public bool NumValidation(String message, String validationType)
-        {
-            //if is what is needed
-            return false;
-        }
-
-        public bool StringValidation(String str)
-        {
-            //check all characters are alphabetical
-            return false;
+                //check for only numbers
+                
+                //check for the size of the number
+                if (res != null)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine(Constants.OnlyNumbers);
+                }
+                
+            }
+            return salary;
         }
     }
 }

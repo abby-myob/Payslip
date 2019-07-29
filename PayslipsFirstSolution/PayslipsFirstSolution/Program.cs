@@ -8,19 +8,23 @@ namespace PayslipsFirstSolution
     {
         static void Main(string[] args)
         {
-
-            // Print questions 
             Console.WriteLine(Constants.Welcome);
 
-            Person person = new Person();
-            Printer printer = new Printer(person);
+            Person person;
+            person = new Person
+            {
+                FirstName = Printer.StringInputValidation(Constants.FirstNameInput),
+                LastName = Printer.StringInputValidation(Constants.LastNameInput),
+                AnnualSalary = Printer.AnnualSalaryValidation(Constants.AnnualSalaryInput),
+            };
 
-            printer.FirstNameValidator();
-            printer.LastNameValidator();
-            printer.AnnualSalaryValidator();
-            printer.SuperValidator();
-            printer.PaymentStartDateValidator();
-            printer.PaymentEndDateValidator();
+
+
+//            printer.LastNameValidator();
+//            printer.AnnualSalaryValidator();
+//            printer.SuperValidator();
+//            printer.PaymentStartDateValidator();
+//            printer.PaymentEndDateValidator();
 
 
 
