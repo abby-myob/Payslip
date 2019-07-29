@@ -31,6 +31,7 @@ namespace PayslipsFirstSolution
         // Error Messages
         public const string OnlyLetters = "Please only use Letters"; //what if it's a name with special characters
         public const string OnlyNumbers = "Please type out a number with no $ behind it";
-        public const string SuperRequirements = "Please provide your super percentage as a number between 0 and 9";
+        public const string SuperRequirements = "Please provide your super percentage as a number from 0 to 50";
+        public const string ProvideValidDate = "Please provide a valid date DD Month";
     }
 }

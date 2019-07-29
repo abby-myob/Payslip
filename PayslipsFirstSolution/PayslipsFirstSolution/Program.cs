@@ -10,22 +10,23 @@ namespace PayslipsFirstSolution
         {
             Console.WriteLine(Constants.Welcome);
 
-            Person person;
-            person = new Person
+            var person = new Person
             {
                 FirstName = Printer.StringInputValidation(Constants.FirstNameInput),
                 LastName = Printer.StringInputValidation(Constants.LastNameInput),
                 AnnualSalary = Printer.NumberInputValidation(Constants.AnnualSalaryInput),
-                Super = Printer.NumberInputValidation(Constants.SuperRateInput),
-                PaymentStartDate = Printer.DateInputValidation(Constants.PaymentStartDateInput),
-                PaymentEndDate = Printer.DateInputValidation(Constants.PaymentEndDateInput),
+                SuperRate = Printer.NumberInputValidation(Constants.SuperRateInput),
+//                PaymentStartDate = Printer.DateInputValidation(Constants.PaymentStartDateInput),
+//                PaymentEndDate = Printer.DateInputValidation(Constants.PaymentEndDateInput),
             };
             person.NameGenerator();
 
             PayslipLogic payslip = new PayslipLogic(person);
             
+            payslip.CalculateGrossIncome();
+            payslip.CalculateIncomeTax();
             
-            
+
             // Do the logic with the details
             // NameCreator.concatenate(person);
 

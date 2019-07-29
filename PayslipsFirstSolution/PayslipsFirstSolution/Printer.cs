@@ -43,7 +43,7 @@ namespace PayslipsFirstSolution
                         case Constants.AnnualSalaryInput:
                             //requirements
                             return number;
-                        case Constants.SuperRateInput when number < 10 && number >= 0:
+                        case Constants.SuperRateInput when number < 50 && number >= 0:
                             return number;
                         case Constants.SuperRateInput:
                             Console.WriteLine(Constants.SuperRequirements);
@@ -60,7 +60,21 @@ namespace PayslipsFirstSolution
 
         public static string DateInputValidation(String message)
         {
-            return null;
+            while (true)
+            {
+                Console.Write(message);
+                var res = Console.ReadLine();
+
+                if (res != null && Int32.TryParse(res, out var number))
+                {
+                    
+                }
+                else
+                {
+                    Console.WriteLine(Constants.ProvideValidDate);
+                }
+
+            }
         }
 
     }
