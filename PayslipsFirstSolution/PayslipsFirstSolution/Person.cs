@@ -3,16 +3,21 @@ namespace PayslipsFirstSolution
 {
     public class Person
     {
-        public string FullName;
+        private string FullName;
         public string FirstName;
         public string LastName;
         public int AnnualSalary;
+        public int Super;
+        public string PaymentStartDate;
+        public string PaymentEndDate;
 
-        public void nameGenerator()
+        
+        
+        public void NameGenerator()
         {
             if (FirstName != null && LastName != null)
             {
-                FullName = FirstName + LastName;
+                FullName = FirstName + " " + LastName;
             }
         }
     }

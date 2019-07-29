@@ -1,4 +1,5 @@
 using System;
+using System.Reflection.Metadata;
 using System.Text.RegularExpressions;
 
 namespace PayslipsFirstSolution
@@ -8,7 +9,7 @@ namespace PayslipsFirstSolution
 
         public static string StringInputValidation(string message)
         {
-            var res = "";
+            string res;
             while (true)
             {
                 Console.Write(message);
@@ -28,18 +29,26 @@ namespace PayslipsFirstSolution
         }
 
 
-        public static int AnnualSalaryValidation(string message)
+        public static int NumberInputValidation(string message)
         {
-            var salary = 0;
             while (true)
             {
                 Console.Write(message);
                 var res = Console.ReadLine();
 
-                if (res != null && Int32.TryParse(res, out salary))
+                if (res != null && Int32.TryParse(res, out var number))
                 {
-                    //salary with the right numbers
-                    break;
+                    switch (message)
+                    {
+                        case Constants.AnnualSalaryInput:
+                            //requirements
+                            return number;
+                        case Constants.SuperRateInput when number < 10 && number >= 0:
+                            return number;
+                        case Constants.SuperRateInput:
+                            Console.WriteLine(Constants.SuperRequirements);
+                            break;
+                    }
                 }
                 else
                 {
@@ -47,7 +56,12 @@ namespace PayslipsFirstSolution
                 }
 
             }
-            return salary;
         }
+
+        public static string DateInputValidation(String message)
+        {
+            return null;
+        }
+
     }
 }

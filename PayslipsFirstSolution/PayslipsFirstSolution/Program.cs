@@ -15,12 +15,12 @@ namespace PayslipsFirstSolution
             {
                 FirstName = Printer.StringInputValidation(Constants.FirstNameInput),
                 LastName = Printer.StringInputValidation(Constants.LastNameInput),
-                AnnualSalary = Printer.AnnualSalaryValidation(Constants.AnnualSalaryInput),
-                //Super = 
-                //PaymentStartDate = 
-                //PaymentEndDate = 
+                AnnualSalary = Printer.NumberInputValidation(Constants.AnnualSalaryInput),
+                Super = Printer.NumberInputValidation(Constants.SuperRateInput),
+                PaymentStartDate = Printer.DateInputValidation(Constants.PaymentStartDateInput),
+                PaymentEndDate = Printer.DateInputValidation(Constants.PaymentEndDateInput),
             };
-            person.nameGenerator();
+            person.NameGenerator();
 
             PayslipLogic payslip = new PayslipLogic(person);
             
