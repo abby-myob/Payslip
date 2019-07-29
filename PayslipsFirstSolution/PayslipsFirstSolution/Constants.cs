@@ -5,8 +5,11 @@ namespace PayslipsFirstSolution
 {
     public static class Constants
     {
+        public const string NewLine = "\n";
+        
         // Input gathering Strings
         public const string Welcome = "Welcome to the best Payslip Generator you'll ever see\n";
+        
         public const string FirstNameInput = "First Name: ";
         public const string LastNameInput = "Last Name: ";
         public const string AnnualSalaryInput = "Annual Salary (ex. 40000): ";
@@ -25,9 +28,7 @@ namespace PayslipsFirstSolution
         public const string Super = "Super: ";
         
         public const string ThankYou = "Thanks for using MYOB! Mind your own business ;)\n";
-        
-        public const string NewLine = "\n";
-        
+
         // Error Messages
         public const string OnlyLetters = "Please only use Letters"; //what if it's a name with special characters
         public const string OnlyNumbers = "Please type out a number with no $ behind it";

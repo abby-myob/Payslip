@@ -1,10 +1,12 @@
 using System;
+using System.ComponentModel.Design;
 
 namespace PayslipsFirstSolution
 {
     class PayslipLogic
     {
         private Person _person;
+        
         public PayslipLogic(Person person)
         {
             _person = person;
@@ -31,7 +33,33 @@ namespace PayslipsFirstSolution
         
         public void CalculateIncomeTax()
         {
-            _person.IncomeTax = 0;
+            int income = _person.AnnualSalary;
+            int result = 0;
+            
+            if (income <= 18200)
+            {
+                result = 0;
+            } 
+            else if (income >= 18201 && income <= 37000)
+            {
+                result = (int) (((income - 18200) * 0.19)/12);
+            } 
+            else if (income >= 37001 && income < 87000)
+            {
+                result = (int) ((3572 + (income - 37000) * 0.325)/12);
+            }
+            else if (income >= 87001 && income < 180000)
+            {
+                result = (int) ((19822 + (income - 87000) * 0.37)/12);
+            }
+            else if (income >= 180001)
+            {
+                result = (int) ((54232 + (income - 18000) * 0.45)/12);
+            }
+            
+            //round the boy
+
+            _person.IncomeTax = result;
         }
 
         public void CalculateNetIncome()
@@ -41,7 +69,7 @@ namespace PayslipsFirstSolution
         
         public void CalculateSuper()
         {
-            _person.Super = Convert.ToInt32(Math.Floor((decimal) (_person.GrossIncome * _person.SuperRate)));
+            _person.Super = Convert.ToInt32(Math.Floor((decimal) (_person.GrossIncome * _person.SuperRate / 100)));
             
         }
 

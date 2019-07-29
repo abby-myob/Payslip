@@ -28,7 +28,6 @@ namespace PayslipsFirstSolution
             return res;
         }
 
-
         public static int NumberInputValidation(string message)
         {
             while (true)
@@ -58,23 +57,10 @@ namespace PayslipsFirstSolution
             }
         }
 
-        public static string DateInputValidation(String message)
+        public static string DateInputValidation(String message) // TODO implement validation.
         {
-            while (true)
-            {
-                Console.Write(message);
-                var res = Console.ReadLine();
-
-                if (res != null && Int32.TryParse(res, out var number))
-                {
-                    
-                }
-                else
-                {
-                    Console.WriteLine(Constants.ProvideValidDate);
-                }
-
-            }
+            Console.Write(message);
+            return Console.ReadLine();
         }
 
         public static void PrintPayslip(Person person)
