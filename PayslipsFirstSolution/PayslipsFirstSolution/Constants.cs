@@ -7,12 +7,12 @@ namespace PayslipsFirstSolution
     {
         // Input gathering Strings
         public const string Welcome = "Welcome to the best Payslip Generator you'll ever see\n";
-        public const string FirstNameInput = "Input your First Name: ";
-        public const string LastNameInput = "Input your Last Name: ";
-        public const string AnnualSalaryInput = "Input your Annual Salary: ";
-        public const string SuperRateInput = "Input your Super Rate: ";
-        public const string PaymentStartDateInput = "Input your Payment Start Date: ";
-        public const string PaymentEndDateInput = "Input your Payment End Date: ";
+        public const string FirstNameInput = "First Name: ";
+        public const string LastNameInput = "Last Name: ";
+        public const string AnnualSalaryInput = "Annual Salary (ex. 40000): ";
+        public const string SuperRateInput = "Super Rate: ";
+        public const string PaymentStartDateInput = "Payment Start Date: ";
+        public const string PaymentEndDateInput = "Payment End Date: ";
         
         // Payslip information Strings
         public const string PayslipGenerated = "Your Payslip has been generated\n";
@@ -30,6 +30,6 @@ namespace PayslipsFirstSolution
         
         // Error Messages
         public const string OnlyLetters = "Please only use Letters"; //what if it's a name with special characters
-        public const string OnlyNumbers = "Please type out a number";
+        public const string OnlyNumbers = "Please type out a number with no $ behind it";
     }
 }

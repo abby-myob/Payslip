@@ -16,22 +16,16 @@ namespace PayslipsFirstSolution
                 FirstName = Printer.StringInputValidation(Constants.FirstNameInput),
                 LastName = Printer.StringInputValidation(Constants.LastNameInput),
                 AnnualSalary = Printer.AnnualSalaryValidation(Constants.AnnualSalaryInput),
+                //Super = 
+                //PaymentStartDate = 
+                //PaymentEndDate = 
             };
+            person.nameGenerator();
 
-
-
-//            printer.LastNameValidator();
-//            printer.AnnualSalaryValidator();
-//            printer.SuperValidator();
-//            printer.PaymentStartDateValidator();
-//            printer.PaymentEndDateValidator();
-
-
-
-
-
-            // Save the details in a person class.
-
+            PayslipLogic payslip = new PayslipLogic(person);
+            
+            
+            
             // Do the logic with the details
             // NameCreator.concatenate(person);
 

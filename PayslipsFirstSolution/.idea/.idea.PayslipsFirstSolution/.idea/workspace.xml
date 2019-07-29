@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f1703b-7dac-4074-9fc0-62726f9c2863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PayslipsFirstSolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PayslipsFirstSolution/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PayslipsFirstSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PayslipsFirstSolution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" afterDir="false" />
@@ -15,19 +17,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="375">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding>
-                <marker date="1564358436523" expanded="true" signature="6:69" ph="..." />
-                <marker date="1564358436523" expanded="true" signature="102:1033" ph="{...}" />
-                <marker date="1564358436523" expanded="true" signature="122:1031" ph="{...}" />
-                <marker date="1564358436523" expanded="true" signature="168:1025" ph="{...}" />
-                <marker date="1564358436523" expanded="true" signature="301:576" ph="{...}" />
-                <marker date="1564358436523" expanded="true" signature="581:810" ph="/* printer.LastNameValidator(); ... */" />
-                <marker date="1564358436523" expanded="true" signature="828:960" ph="/* Save the details in a person class. ... */" />
+                <marker date="1564358869261" expanded="true" signature="6:69" ph="..." />
+                <marker date="1564358869261" expanded="true" signature="102:981" ph="{...}" />
+                <marker date="1564358869261" expanded="true" signature="122:979" ph="{...}" />
+                <marker date="1564358869261" expanded="true" signature="168:973" ph="{...}" />
+                <marker date="1564358869261" expanded="true" signature="301:677" ph="{...}" />
+                <marker date="1564358869261" expanded="true" signature="579:663" ph="/* Super = ... */" />
+                <marker date="1564358869261" expanded="true" signature="828:908" ph="/* Do the logic with the details ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <marker date="1564358869253" expanded="true" signature="46:273" ph="{...}" />
+                <marker date="1564358869253" expanded="true" signature="71:271" ph="{...}" />
+                <marker date="1564358869253" expanded="true" signature="152:202" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -37,33 +53,34 @@
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Person.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
-                <marker date="1564358436515" expanded="true" signature="32:170" ph="{...}" />
-                <marker date="1564358436515" expanded="true" signature="58:168" ph="{...}" />
+                <marker date="1564358650429" expanded="true" signature="32:391" ph="{...}" />
+                <marker date="1564358650429" expanded="true" signature="58:389" ph="{...}" />
+                <marker date="1564358650429" expanded="true" signature="231:383" ph="{...}" />
+                <marker date="1564358650429" expanded="true" signature="296:373" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            <state relative-caret-position="510">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
-                <marker date="1564358436520" expanded="true" signature="6:51" ph="..." />
-                <marker date="1564358436520" expanded="true" signature="84:1377" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="133:1375" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="207:683" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="268:649" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="436:499" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="520:618" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="750:1369" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="839:1332" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="952:1086" ph="/* turn res into integer ... */" />
-                <marker date="1564358436520" expanded="true" signature="1119:1182" ph="{...}" />
-                <marker date="1564358436520" expanded="true" signature="1203:1301" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="6:51" ph="..." />
+                <marker date="1564362169364" expanded="true" signature="84:1276" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="133:1274" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="207:683" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="268:649" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="436:499" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="520:618" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="750:1268" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="813:1231" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="982:1097" ph="{...}" />
+                <marker date="1564362169364" expanded="true" signature="1118:1216" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,13 +110,16 @@
     <setting file="file://$PROJECT_DIR$/PayslipsFirstSolution/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" />
-        <option value="$PROJECT_DIR$/PayslipsFirstSolution/Person.cs" />
         <option value="$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs" />
+        <option value="$PROJECT_DIR$/PayslipsFirstSolution/Person.cs" />
+        <option value="$PROJECT_DIR$/PayslipsFirstSolution/PayslipGenerator.cs" />
+        <option value="$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs" />
+        <option value="$PROJECT_DIR$/PayslipsFirstSolution/Program.cs" />
         <option value="$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs" />
       </list>
     </option>
@@ -187,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564350634210</updated>
-      <workItem from="1564350635297" duration="7466000" />
+      <workItem from="1564350635297" duration="8805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7466000" />
+    <option name="totallyTimeSpent" value="8805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,38 +273,6 @@
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/IPrinter.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Person.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1564358436515" expanded="true" signature="32:170" ph="{...}" />
-            <marker date="1564358436515" expanded="true" signature="58:168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <marker date="1564358436520" expanded="true" signature="6:51" ph="..." />
-            <marker date="1564358436520" expanded="true" signature="84:1377" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="133:1375" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="207:683" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="268:649" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="436:499" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="520:618" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="750:1369" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="839:1332" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="952:1086" ph="/* turn res into integer ... */" />
-            <marker date="1564358436520" expanded="true" signature="1119:1182" ph="{...}" />
-            <marker date="1564358436520" expanded="true" signature="1203:1301" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Constants.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -299,16 +287,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
-            <marker date="1564358436523" expanded="true" signature="6:69" ph="..." />
-            <marker date="1564358436523" expanded="true" signature="102:1033" ph="{...}" />
-            <marker date="1564358436523" expanded="true" signature="122:1031" ph="{...}" />
-            <marker date="1564358436523" expanded="true" signature="168:1025" ph="{...}" />
-            <marker date="1564358436523" expanded="true" signature="301:576" ph="{...}" />
-            <marker date="1564358436523" expanded="true" signature="581:810" ph="/* printer.LastNameValidator(); ... */" />
-            <marker date="1564358436523" expanded="true" signature="828:960" ph="/* Save the details in a person class. ... */" />
+            <marker date="1564358869261" expanded="true" signature="6:69" ph="..." />
+            <marker date="1564358869261" expanded="true" signature="102:981" ph="{...}" />
+            <marker date="1564358869261" expanded="true" signature="122:979" ph="{...}" />
+            <marker date="1564358869261" expanded="true" signature="168:973" ph="{...}" />
+            <marker date="1564358869261" expanded="true" signature="301:677" ph="{...}" />
+            <marker date="1564358869261" expanded="true" signature="579:663" ph="/* Super = ... */" />
+            <marker date="1564358869261" expanded="true" signature="828:908" ph="/* Do the logic with the details ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/PayslipLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1564358869253" expanded="true" signature="46:273" ph="{...}" />
+            <marker date="1564358869253" expanded="true" signature="71:271" ph="{...}" />
+            <marker date="1564358869253" expanded="true" signature="152:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <marker date="1564358650429" expanded="true" signature="32:391" ph="{...}" />
+            <marker date="1564358650429" expanded="true" signature="58:389" ph="{...}" />
+            <marker date="1564358650429" expanded="true" signature="231:383" ph="{...}" />
+            <marker date="1564358650429" expanded="true" signature="296:373" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PayslipsFirstSolution/Printer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <marker date="1564362169364" expanded="true" signature="6:51" ph="..." />
+            <marker date="1564362169364" expanded="true" signature="84:1276" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="133:1274" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="207:683" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="268:649" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="436:499" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="520:618" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="750:1268" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="813:1231" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="982:1097" ph="{...}" />
+            <marker date="1564362169364" expanded="true" signature="1118:1216" ph="{...}" />
           </folding>
         </state>
       </provider>

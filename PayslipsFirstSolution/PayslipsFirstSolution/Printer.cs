@@ -30,26 +30,22 @@ namespace PayslipsFirstSolution
 
         public static int AnnualSalaryValidation(string message)
         {
-            var res = "";
             var salary = 0;
             while (true)
             {
                 Console.Write(message);
-                res = Console.ReadLine();
-                //turn res into integer 
+                var res = Console.ReadLine();
 
-                //check for only numbers
-                
-                //check for the size of the number
-                if (res != null)
+                if (res != null && Int32.TryParse(res, out salary))
                 {
+                    //salary with the right numbers
                     break;
                 }
                 else
                 {
                     Console.WriteLine(Constants.OnlyNumbers);
                 }
-                
+
             }
             return salary;
         }

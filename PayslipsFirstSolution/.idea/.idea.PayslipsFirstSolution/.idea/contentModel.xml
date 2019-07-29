@@ -13,6 +13,7 @@
             </e>
           </e>
         </e>
+        <e p="PayslipLogic.cs" t="Include" />
         <e p="PayslipsFirstSolution.csproj" t="IncludeRecursive" />
         <e p="Person.cs" t="Include" />
         <e p="Printer.cs" t="Include" />
