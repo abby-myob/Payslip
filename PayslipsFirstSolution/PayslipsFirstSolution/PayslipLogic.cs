@@ -23,7 +23,7 @@ namespace PayslipsFirstSolution
 
         public void CalculatePayPeriod()
         {
-            _person.PayPeriod = $"{_person.PaymentStartDate} - {_person.PaymentEndDate}";
+            _person.PayPeriod = $"{_person.PaymentStartDate:dd MMMM} - {_person.PaymentEndDate:dd MMMM}";
         }
 
         public void CalculateGrossIncome()

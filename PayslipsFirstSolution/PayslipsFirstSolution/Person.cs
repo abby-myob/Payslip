@@ -1,4 +1,6 @@
 
+using System;
+
 namespace PayslipsFirstSolution
 {
     public class Person
@@ -7,8 +9,8 @@ namespace PayslipsFirstSolution
         public string LastName;
         public int AnnualSalary;
         public int SuperRate;
-        public string PaymentStartDate;
-        public string PaymentEndDate;
+        public DateTime PaymentStartDate;
+        public DateTime PaymentEndDate;
 
         public string FullName;
         public string PayPeriod;

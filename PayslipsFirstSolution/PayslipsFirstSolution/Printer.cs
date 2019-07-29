@@ -1,13 +1,17 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.Reflection.Metadata;
+using System.Runtime.ConstrainedExecution;
 using System.Text.RegularExpressions;
 
 namespace PayslipsFirstSolution
 {
-    public static class Printer /*: IPrinter*/
+    public class Printer /*: IPrinter*/
     {
+        private DateTime _programStartDate = DateTime.Today;
 
-        public static string StringInputValidation(string message)
+        public string StringInputValidation(string message)
         {
             string res;
             while (true)
@@ -28,7 +32,7 @@ namespace PayslipsFirstSolution
             return res;
         }
 
-        public static int NumberInputValidation(string message)
+        public int NumberInputValidation(string message)
         {
             while (true)
             {
@@ -57,26 +61,52 @@ namespace PayslipsFirstSolution
             }
         }
 
-        public static string StartDateInputValidation(string message) // TODO implement validation.
+        public DateTime DateInputValidation(string message)
         {
-//            while (true)
-//            {
-//                Console.Write(message);
-//                DateTime userDateTime;
-//                if (DateTime.TryParse(Console.ReadLine(), out userDateTime))
-//                {
-//                    Console.WriteLine("The day of the week is: " + userDateTime.DayOfWeek);
-//                    return 
-//                }
-//                else
-//                {
-//                    Console.WriteLine("You have entered an incorrect value.");
-//                }
-//
-//            }
+            
+            while (true)
+            {
+                Console.Write(message);
+
+                if (!DateTime.TryParseExact(Console.ReadLine(), "MM/DD/YYYY", new CultureInfo("en-NZ"), DateTimeStyles.None, out DateTime date))
+                {
+                    Console.WriteLine(Constants.ProvideValidStartDate);
+                    continue;
+                }
+                
+                switch (message)
+                {
+                    case Constants.PaymentStartDateInput:
+
+                        if (date.Day == 1)
+                        {
+                            _programStartDate = date;
+                            return date;
+                        }
+                        else
+                        {
+                            Console.WriteLine(Constants.ValidStartDate);
+                            continue;
+                        }
+                    
+                    case Constants.PaymentEndDateInput:
+                        
+                        if (date.Day == DateTime.DaysInMonth(_programStartDate.Month, _programStartDate.Year))
+                        {
+                            return date;
+                        }
+                        else
+                        {
+                            Console.WriteLine(Constants.ValidEndDate);
+                            continue;
+                        }
+                        
+                }
+                
+            }
         }
 
-        public static void PrintPayslip(Person person)
+        public void PrintPayslip(Person person)
         {
             Console.WriteLine(Constants.NewLine);
             Console.WriteLine(Constants.PayslipGenerated);

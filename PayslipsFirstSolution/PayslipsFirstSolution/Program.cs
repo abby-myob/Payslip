@@ -9,16 +9,17 @@ namespace PayslipsFirstSolution
         static void Main(string[] args)
         {
             Console.WriteLine(Constants.Welcome);
+            var p = new Printer();
 
             var person = new Person
             {
-                FirstName = Printer.StringInputValidation(Constants.FirstNameInput),
-                LastName = Printer.StringInputValidation(Constants.LastNameInput),
-                AnnualSalary = Printer.NumberInputValidation(Constants.AnnualSalaryInput),
-                SuperRate = Printer.NumberInputValidation(Constants.SuperRateInput),
-                PaymentStartDate = Printer.StartDateInputValidation(Constants.PaymentStartDateInput),
-                //PaymentEndDate = //Start date + A Month
-            };
+                FirstName = p.StringInputValidation(Constants.FirstNameInput),
+                LastName = p.StringInputValidation(Constants.LastNameInput),
+                AnnualSalary = p.NumberInputValidation(Constants.AnnualSalaryInput),
+                SuperRate = p.NumberInputValidation(Constants.SuperRateInput),
+                PaymentStartDate = p.DateInputValidation(Constants.PaymentStartDateInput),
+                PaymentEndDate = p.DateInputValidation(Constants.PaymentEndDateInput),
+           };
             
 
             PayslipLogic payslip = new PayslipLogic(person);
@@ -31,7 +32,7 @@ namespace PayslipsFirstSolution
             payslip.CalculateSuper();
 
 
-            Printer.PrintPayslip(person);
+            p.PrintPayslip(person);
         }
     }
 }
